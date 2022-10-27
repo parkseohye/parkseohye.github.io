@@ -1,15 +1,15 @@
 # Configurations
-title:            Knowledge must be equal
-longtitle:        정빈이의 공부방 
-author:           Jeongbin Park
-email:            nate9389@gmail.com
+title:            The title of the blog
+longtitle:        The title of the blog
+author:           Seohye Park
+email:            woojoo569@gmail.com
 description: >
   Originally written in nate9389.tistory.com
 
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://jb243.github.io'
+url:              'https://parkseohye.github.io'
 baseurl:          '/'
 rss:              RSS
 
@@ -46,11 +46,9 @@ permalink:        /:categories/:year-:month-:day-:title:output_ext
 exclude:
   - _drafts
 
-# 아래 collections를 통해 다른 _pages 말고 다른 디렉토리도 할 수 있음
-# 일단 아래 기능은 필요 없는 거 같아서 불활성화 시킴
 collections:
   pages:
-    output: false
+    output: true
     permalink: /:collection/:path/
 
 page_width: 800px
@@ -63,7 +61,3 @@ plugins:
   - jekyll-feed
   - jekyll-readme-index
   - jemoji
-  
-  
-# I added all the below
-google_analytics: G-0G7H5JFYB9
