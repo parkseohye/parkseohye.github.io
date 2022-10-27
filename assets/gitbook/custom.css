@@ -53,7 +53,6 @@
 
 .page-inner {
     max-width: {{ site.page_width | default: '800px' }};
-    color: #000000; /* I added */
 }
 
 .back-to-top {
